@@ -50,7 +50,6 @@ def painting(variables, title):
     plt.subplots_adjust(bottom=0.15)
     plt.show()
     
-
 def main():
     link = 'http://wiki.dothraki.org/Vocabulary'
     user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)'
