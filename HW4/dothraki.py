@@ -3,7 +3,7 @@ import re
 import matplotlib.pyplot as plt
 
 def file_analyzer(link, user_agent):
-    req = urllib.request.Request(url, headers={'User-Agent':user_agent})
+    req = urllib.request.Request(link, headers={'User-Agent':user_agent})
     with urllib.request.urlopen(req) as response:
         html = response.read().decode('utf-8')
     return html
